@@ -20,9 +20,14 @@ Code to the paper: "Improving Image Quality of Sparse-view Lung Cancer CT Images
 - scipy==1.4.1
 
 ### Executing program
-
 - Obtain data
 - Sparse-sample data with 1_dataPrep_sparseSampling.ipynb
 - Train network with 2_train.ipynb
 - Test model and obtain predicted images with 3_test.ipynb
 - Evaluate results of reader study with 4_evalResults_readerStudy.ipynb
+
+ 
+------------------------
+ Authored by:
+- Annika Ries (annika97.ries@gmail.com)
+- Tina Dorosti (tina.dorosti@tum.de)
