@@ -4,10 +4,14 @@ Code to the paper: "Improving Image Quality of Sparse-view Lung Cancer CT Images
 
 ## Abstract
 
-- **Background:** To improve the image quality of sparse-view computed tomography (CT) images with a U-Net for lung cancer detection and to determine the best trade-off between number of views, image quality, and diagnostic confidence.
-- **Methods:** CT images from 41 anonymized subjects (mean age, 62.8±10.6 years, 23 men; 34 with lung cancer, seven healthy) were retrospectively selected (01.2016-12.2018) and forward projected onto 2048-view sinograms. Six corresponding sparse-view CT data subsets at varying levels of undersampling were reconstructed from sinograms using filtered back projection with 16, 32, 64, 128, 256, and 512 views, respectively. A dual-frame U-Net was trained and evaluated for each subsampling level on 8,658 images from 22 diseased subjects. A representative image per scan was selected from 19 subjects (12 diseased, seven healthy) for a single-blinded reader study. The selected slices, for all levels of subsampling, with and without post-processing by the U-Net model, were presented to three readers. Image quality and diagnostic confidence were ranked using pre-defined scales. Subjective nodule segmentation was evaluated utilizing sensitivity and Dice Similarity Coefficient (DSC).
-- **Results:** The 64-projection sparse-view images resulted in sensitivity=0.89 and DSC=0.81, while their counterparts, post-processed with the U-Net, had improved metrics (sensitivity = 0.94, DSC = 0.85 with *p* = 0.400). Fewer views led to insufficient quality for diagnostic purposes. For increased views, no substantial discrepancies were noted between the sparse-view and post-processed images.
-- **Conclusion:** Projection views can be reduced from 2048 to 64 while maintaining image quality and the confidence of the radiologists on a satisfactory level.
+- **Background:** We aimed at improving image quality (IQ) of sparse-view computed tomography (CT) images using a U-Net for lung metastasis detection and determining the best tradeoff between number of views, IQ, and diagnostic confidence.
+
+- **Methods:** CT images from 41 subjects aged 62.8 ± 10.6 years (mean ± standard deviation), 23 men, 34 with lung metastasis, 7 healthy, were retrospectively selected (2016–2018) and forward projected onto 2,048-view sinograms. Six corresponding sparse-view CT data subsets at varying levels of undersampling were reconstructed from sinograms using filtered backprojection with 16, 32, 64, 128, 256, and 512 views. A dual-frame U-Net was trained and evaluated for each subsampling level on 8,658 images from 22 diseased subjects. A representative image per scan was selected from 19 subjects (12 diseased, 7 healthy) for a single-blinded multireader study. These slices, for all levels of subsampling, with and without U-Net postprocessing, were presented to three readers. IQ and diagnostic confidence were ranked using predefined scales. Subjective nodule segmentation was evaluated using sensitivity and Dice similarity coefficient (DSC); clustered Wilcoxon signed-rank test was used.
+
+- **Results:** The 64-projection sparse-view images resulted in 0.89 sensitivity and 0.81 DSC, while their counterparts, postprocessed with the U-Net, had improved metrics (0.94 sensitivity and 0.85 DSC) (p = 0.400). Fewer views led to insufficient IQ for diagnosis. For increased views, no substantial discrepancies were noted between sparse-view and postprocessed images.
+
+- **Conclusion:** Projection views can be reduced from 2,048 to 64 while maintaining IQ and the confidence of the radiologists on a satisfactory level.
+
 
 
 ## Getting Started
