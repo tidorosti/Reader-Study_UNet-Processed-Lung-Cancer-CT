@@ -1,6 +1,6 @@
 # Improving Image Quality of Sparse-view Lung Cancer CT Images with  U-Net
 
-Code to the paper: "Improving Image Quality of Sparse-view Lung Cancer CT Images with  U-Net."
+Code to the paper: ["Improving Image Quality of Sparse-view Lung Cancer CT Images with  U-Net"](https://eurradiolexp.springeropen.com/articles/10.1186/s41747-024-00450-4)
 
 ## Abstract
 
@@ -29,9 +29,14 @@ Code to the paper: "Improving Image Quality of Sparse-view Lung Cancer CT Images
 - Train network with 2_train.ipynb
 - Test model and obtain predicted images with 3_test.ipynb
 - Evaluate results of reader study with 4_evalResults_readerStudy.ipynb
-
  
 ------------------------
  Authored by:
 - Annika Ries (annika97.ries@gmail.com)
 - Tina Dorosti (tina.dorosti@tum.de)
+
+------------------------
+------------------------
+If you use this code in a scientific publication, we would appreciate citations to the following paper:
+
+  Ries, A., Dorosti, T., Thalhammer, J. et al. Improving image quality of sparse-view lung tumor CT images with U-Net. _Eur Radiol Exp_ 8, 54 (2024). https://doi.org/10.1186/s41747-024-00450-4 
