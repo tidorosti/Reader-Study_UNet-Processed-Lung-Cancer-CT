@@ -32,8 +32,8 @@ Code to the paper: ["Improving Image Quality of Sparse-view Lung Cancer CT Image
  
 ------------------------
  Authored by:
-- Annika Ries (annika97.ries@gmail.com)
-- Tina Dorosti (tina.dorosti@tum.de)
+- A. Ries
+- T. Dorosti
 
 ------------------------
 ------------------------
